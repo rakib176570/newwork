@@ -1,0 +1,81 @@
+@media all and (max-width:1200px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 7px;
+    }
+}
+@media all and (max-width:991px) {
+    .res-tab {
+        width: 40%;
+        margin: auto;
+    }
+    .cros {
+        position: relative;
+    }
+    .round-ex2 {
+        position: absolute;
+        top: -173px;
+        right: -45px;
+    }
+    .check-product-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .check-right {
+        border-left: none;
+    }
+    .check-sub-form input {
+        width: 85%;
+    }
+    .min-device {
+        margin-top: 20px;
+    }
+    .button {
+        margin-left: 0 !important;
+    }
+}
+@media all and (max-width:768px) {
+    .res-tab {
+        width: 50%;
+    }
+    .check-sub-form input {
+        width: 80%;
+    }
+}
+@media all and (max-width:575px) {
+    .check-image::before {
+        content: "";
+        border-top: none;
+    }
+    .check-image-box .coustom-image1 {
+        width: 5%;
+    }
+    .check-image-box {
+        margin-bottom: 30px;
+    }
+}
+@media all and (max-width:530px) {
+    .check-sub-form input {
+        width: 78%;
+    }
+    .res-tab {
+        width: 65%;
+    }
+}
+@media all and (max-width:485px) {
+    .check-sub-form input {
+        width: 75%;
+    }
+}
+@media all and (max-width:433px) {
+    .check-sub-form input {
+        width: 70%;
+    }
+    .check-form-bottom label {
+        font-size: 15px;
+    }
+}
+@media all and (max-width:370px) {
+    .check-sub-form input {
+        width: 68%;
+    }
+}
